@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <plugin name="GeracaoPlanilhasArrecadacaoTributaria" label="Geracao Planilhas Arrecadacao Tributaria" plugin-version="1.0" ecidade-version="2.3.38" id-modulo="39">
+  <id id="GeracaoPlanilhasArrecadacaoTributaria"></id>
+
+    <files>
+      <file name="db_arquivoretornoarrecadacaotributaria_classe.php" path="/classes/db_arquivoretornoarrecadacaotributaria_classe.php" />
+      <file name="db_arquivoretornoarrecadacaotributariaplanilhas_classe.php" path="/classes/db_arquivoretornoarrecadacaotributariaplanilhas_classe.php" />
+      <file name="cai4_processaarquivoretornoarrecacaotributaria001.php" path="/cai4_processaarquivoretornoarrecacaotributaria001.php" />
+      <file name="plugins.arquivoretornoarrecadacaotributaria.dd.xml" path="/dd/tabelas/plugins.arquivoretornoarrecadacaotributaria.dd.xml" />
+      <file name="plugins.arquivoretornoarrecadacaotributariaplanilhas.dd.xml" path="/dd/tabelas/plugins.arquivoretornoarrecadacaotributariaplanilhas.dd.xml" />
+    </files>
+
+    <estrutura install="/instalacao.sql" uninstall="/desinstalacao.sql">
+    </estrutura>
+    
+    <menus>
+      <menu type="4">
+        <item name="Processa Arquivo Retorno Arredação Tributária" file="cai4_processaarquivoretornoarrecacaotributaria001.php" liberado-cliente="true" ></item>
+      </menu>
+    </menus>
+    
+  </plugin>
+</manifest>

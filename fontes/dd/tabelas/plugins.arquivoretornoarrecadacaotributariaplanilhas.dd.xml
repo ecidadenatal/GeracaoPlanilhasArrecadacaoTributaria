@@ -1,0 +1,58 @@
+<?xml version="1.0" standalone="yes" ?>
+<table name="plugins.arquivoretornoarrecadacaotributariaplanilhas" description="Guarda as planilhas geradas para o arquivo de retorno das arrecadações tributárias processados" prefix="" label="Planilhas geradas para os arquivos processados" type="0">
+  <fields>
+    <field name="sequencial"
+           conteudo="int4"
+           description="Sequencial"
+           inivalue="0"
+           label="Sequencial"
+           size="10"
+           null="f"
+           uppercase="f"
+           autocompl="f"
+           aceitatipo="1"
+           tipoobj="text"
+           labelrel="Sequencial"
+           reference=""
+           ispk="t"
+           hassequence="t">
+      <sequence name="plugins.arquivoretornoarrecadacaotributariaplanilhas_sequencial_seq"></sequence>
+    </field>
+    <field name="arquivoretornoarrecadacaotributaria"
+           conteudo="int4"
+           description="Arquivo de Retorno"
+           inivalue="0"
+           label="Arquivo de Retorno"
+           size="10"
+           null="f"
+           uppercase="f"
+           autocompl="f"
+           aceitatipo="1"
+           tipoobj="text"
+           labelrel="Arquivo de retorno"
+           reference=""
+           ispk="f"
+           hassequence="f">
+    </field>
+    <field name="placaixa"
+           conteudo="int4"
+           description="Planilha de Arrecadacao"
+           inivalue="0"
+           label="Planilha de Arrecadacao"
+           size="100"
+           null="t"
+           uppercase="f"
+           autocompl="f"
+           aceitatipo="1"
+           tipoobj="text"
+           labelrel="Planilha de Arrecadacao"
+           reference=""
+           ispk="f"
+           hassequence="f">
+    </field>
+    
+  </fields>
+  <primarykey>
+    <fieldpk name="sequencial"></fieldpk>
+  </primarykey>
+</table>
