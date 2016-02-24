@@ -1,0 +1,5 @@
+#Compactados #
+###############
+*.gz
+*.tar
+*.tar.gz
