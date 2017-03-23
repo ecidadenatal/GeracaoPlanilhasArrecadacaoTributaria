@@ -11,6 +11,7 @@ create table plugins.arquivoretornoarrecadacaotributariaplanilhas (sequencial in
                                                           
 create sequence plugins.arquivoretornoarrecadacaotributariaplanilhas_sequencial_seq;
 
+/*
 insert into configuracoes.db_layouttxt (db50_codigo     , 
                           db50_descr      , 
                           db50_quantlinhas, 
@@ -270,4 +271,4 @@ insert into configuracoes.db_layoutcampos (db52_codigo       ,
                               't',
                               'd',
                               '',
-                              0);
+                              0);*/
